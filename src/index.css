@@ -1,0 +1,247 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	/* background: green; */
+}
+
+html,
+body {
+	height: 100% !important;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.main-container {
+	/* @include display-flex(flex, column, nowrap); */
+	width: 100%;
+	overflow: hidden;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.submit-button {
+	background-color: green;
+	margin-left: 40px;
+	color: white;
+	height: 32px;
+}
+
+.submit-button_2 {
+	background-color: green;
+	color: white;
+	height: 32px;
+	width: 153px;
+	margin-top: 35px;
+}
+
+.padding-10px {
+	padding: 10px 0;
+}
+
+.content {
+	padding: 10px;
+	flex-direction: row;
+	display: flex;
+}
+
+.content_2 {
+	padding: 10px;
+	flex-direction: column;
+	display: flex;
+	/* align-items: center; */
+}
+
+.radio-fields {
+	align-items: center;
+	display: flex;
+	padding: 0 8px;
+}
+
+.content_2-data {
+	display: flex;
+}
+
+input[type='text'],
+input[type='radio'] {
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 6px;
+}
+
+input[type='text'] {
+	width: 180px;
+}
+
+input[type='radio'] {
+	margin-right: 7px;
+}
+
+select {
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 6px;
+	outline: none;
+	width: 180px;
+	background: white !important;
+}
+
+fieldset {
+	border: none;
+}
+
+.button-wrapper {
+	display: flex;
+	margin-top: 25px;
+	width: 420px;
+	/* justify-content: center; */
+	gap: 20px;
+}
+
+.add-question-button {
+	color: white;
+	background-color: blue;
+	height: 32px;
+	margin: 20px 0;
+	float: left;
+}
+
+.question-form {
+	margin-top: 80px;
+	padding: 20px;
+	box-shadow: -2px -4px 10px #888888;
+}
+
+.create-form-button {
+	color: white;
+	background-color: green;
+	height: 32px;
+	margin-top: 25px;
+}
+
+td {
+	padding: 15px;
+	text-align: center;
+}
+
+.edit-button {
+	color: white;
+	background-color: #858585;
+	height: 32px;
+}
+
+.cancel-button {
+	color: white;
+	background-color: red;
+	height: 32px;
+}
+
+.form-group {
+	margin-top: 20px;
+}
+
+button {
+	padding: 4px 15px;
+	border-radius: 4px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+	transition: 0.5s all;
+}
+
+.error-message {
+	/* float: right; */
+	color: red;
+}
+
+input:focus {
+	outline: none;
+}
+
+.main-modal {
+	background-color: #dde1e3 !important;
+	border: none;
+}
+
+.form-container {
+	padding: 50px;
+}
+
+.no-data {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.form-button {
+	background-color: green;
+	float: right;
+	color: white;
+	outline: none;
+	width: 130px;
+	border: none;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 4px;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+h2 {
+	padding: 10px;
+}
+
+button:active {
+	opacity: 1;
+}
+
+.form-container_2 {
+	display: flex;
+	flex-direction: column;
+	float: left;
+}
+
+.form-container_2 > input {
+	width: auto;
+}
+
+.form-container .app-title {
+	margin: 0 auto;
+	width: 76%;
+	font-size: 35px;
+}
+
+table {
+	/* margin-top: 20px; */
+	margin: 20px auto;
+	border: 1px solid black;
+	border-radius: 5px;
+	/* margin-top: 85px; */
+}
+
+.table-data {
+	border-bottom: 1px solid black;
+	padding: 10px;
+	width: 200px;
+}
+
+.form-name-label {
+	font-size: 22px;
+}
